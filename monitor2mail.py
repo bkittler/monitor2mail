@@ -43,7 +43,9 @@ and send mail if down"""
 
 def check(file_to_check, testmode, debug):
     """
-    
+    Function open file, read each line and complete a dictionnary
+    For each entry, launch check url : http/https or launch resolution then ping for MX/NS entry
+    If one url not respond, launch email to alert   
 
     Parameters
     ----------

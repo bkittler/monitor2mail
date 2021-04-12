@@ -3,6 +3,9 @@
 
 monitor2mail - script to monitor list of url (https/http/ns/mx) and send mail if down
 
+Script open file, read each line and test each host present on file
+For each entry, launch check url : http/https or launch resolution then ping for MX/NS entry
+If one url not respond, send email to alert (email present on file in entry)
 
 ## Installation
 
