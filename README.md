@@ -1,7 +1,7 @@
-## monitor2mail - script to monitor list of url (https/http/ns/mx) and send mail if down
+## monitor2mail - Script to monitor list of urls (https/http/ns/mx) and send email if one is down
 ***
 
-monitor2mail - script to monitor list of url (https/http/ns/mx) and send mail if down
+monitor2mail - monitor2mail - Script to monitor list of urls (https/http/ns/mx) and send email if one is down
 
 Script open file, read each line and test each host present on file
 For each entry, launch check url : http/https or launch resolution then ping for MX/NS entry
