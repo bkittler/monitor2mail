@@ -1,0 +1,7 @@
+www.domain.fr		mailtoalert@domain.com
+http://ww3.domain4.com	mailtoalert@domain.com
+ns://domain.com	  	mailtoalert2@domain.com
+ns://domain2.com	mailtoalert1@domain.com
+mx://domain1.com	mailtoalert3@domain.com
+mx://domain3.com	mailtoalert@domain.com
+www3.kittler.fr		mailtoalert@domain2.com
