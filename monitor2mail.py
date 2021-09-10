@@ -99,7 +99,7 @@ def check(file_to_check, testmode, debug):
         print("Check :")
     for url, mail in url_dict.items():
         # check http or https entry
-        if "ns://" not in url and "mx://" not in url:
+        if "ns://" not in url and "mx://" not in url and "ping://" not in url:
             availability = str(request_url(url))
             # import pdb; pdb.set_trace()
             if (availability == ("200") or (availability == "301")
@@ -130,6 +130,17 @@ def check(file_to_check, testmode, debug):
             if testmode == 1:
                 print("url : ", url, "  -> mail : ", mail,
                       " Result MX :", request_url_result)
+            else:
+                if request_url_result == "DOWN":
+                    # print("mail :", mail)
+                    alert_mail(mail, request_url_result, url)
+        # check ping entry
+        elif "ping://" in url:
+            url = url.replace("ping://", "")
+            request_url_result = ping_ip(url)
+            if testmode == 1:
+                print("url : ", url, "  -> mail : ", mail,
+                      " Result Ping :", request_url_result)
             else:
                 if request_url_result == "DOWN":
                     # print("mail :", mail)

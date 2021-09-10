@@ -87,6 +87,16 @@ on python directory please install :
 
 	Install Certificates.command
 	
+If you have an error with dnspython,
+please test reinstall module with pip :
+
+	pip uninstall dnspython
+
+	pip install dnspython
+
+
+
+## Notes
 
 All entry must be unique on file. Second same entry is ignored.
 

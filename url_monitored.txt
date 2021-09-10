@@ -5,3 +5,5 @@ ns://domain2.com	mailtoalert1@domain.com
 mx://domain1.com	mailtoalert3@domain.com
 mx://domain3.com	mailtoalert@domain.com
 www3.kittler.fr		mailtoalert@domain2.com
+ping://1.2.3.4		mailtoalert@domain.com
+ping://host1.domain.com	mailtoalert@domain.com
