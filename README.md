@@ -1,7 +1,7 @@
-## monitor2mail - Script to monitor list of urls (https/http/ns/mx) and send email if one is down
+## monitor2mail - Script to monitor list of urls (https/http/ns/mx/ping) and send email if one is down
 ***
 
-monitor2mail - monitor2mail - Script to monitor list of urls (https/http/ns/mx) and send email if one is down
+monitor2mail - monitor2mail - Script to monitor list of urls (https/http/ns/mx/ping) and send email if one is down
 
 Script open file, read each line and test each host present on file.
 
@@ -24,6 +24,17 @@ And install Python and requirements :
 
 create txt file containing url to monitor and email.
 see example : url_monitored.txt
+
+Please use :
+http:// or https:// for HTTP/HTTPS entry
+mx:// for MX entry
+ns:// for NS entry
+ping:// for IP or host entry
+
+Please add space/tab and destination email for alert on each line
+
+see example : url_monitored.txt 
+
 
 Open monitor2mail.py and complete variables :
 
