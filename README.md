@@ -23,17 +23,22 @@ And install Python and requirements :
 
 
 create txt file containing url to monitor and email.
+
 see example : url_monitored.txt
 
 Please use :
-http:// or https:// for HTTP/HTTPS entry
-mx:// for MX entry
-ns:// for NS entry
-ping:// for IP or host entry
+
+* http:// or https:// for HTTP/HTTPS entry
+
+* mx:// for MX entry
+
+* ns:// for NS entry
+
+* ping:// for IP or host entry
 
 Please add space/tab and destination email for alert on each line
 
-see example : url_monitored.txt 
+See example : url_monitored.txt 
 
 
 Open monitor2mail.py and complete variables :
